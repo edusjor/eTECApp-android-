@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/buscar_producto"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Buscar productos" />
+        <item
+            android:id="@+id/carrito_compras"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Carrito de compras" />
+        <item
+            android:id="@+id/estado_de_paquetes"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Estado de los paquetes" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Cambiar IP" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="LogOut" />
+        </menu>
+    </item>
+
+</menu>
